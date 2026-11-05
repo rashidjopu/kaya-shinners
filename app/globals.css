@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #4A4A4A;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair), Georgia, serif;
+  color: #1A1A1A;
+}
+
+.section-padding {
+  @apply py-20 px-4 md:py-28 md:px-8;
+}
+
+.explore-link {
+  @apply inline-flex items-center gap-2 text-sm font-medium tracking-wider uppercase border-l-2 border-black pl-4 hover:pl-6 transition-all duration-300;
+  color: #1A1A1A;
+}
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

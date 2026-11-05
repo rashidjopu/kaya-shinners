@@ -1,0 +1,27 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import TravelSection from "@/components/TravelSection";
+import GameDrives from "@/components/GameDrives";
+import Destinations from "@/components/Destinations";
+import Gallery from "@/components/Gallery";
+import InquiryForm from "@/components/InquiryForm";
+import Footer from "@/components/Footer";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <TravelSection />
+        <GameDrives />
+        <Destinations />
+        <Gallery />
+        <InquiryForm />
+      </main>
+      <Footer />
+    </>
+  );
+}

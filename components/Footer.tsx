@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <h3 className="font-[family-name:var(--font-cormorant)] text-2xl font-semibold text-white tracking-[0.1em] mb-4">
-              Kaya Shinners
+              Kaya Shiners
             </h3>
             <p className="text-sm leading-relaxed">
               Tour &amp; Safaris — your gateway to extraordinary adventures
@@ -39,7 +39,7 @@ export default function Footer() {
               Quick Links
             </h4>
             <ul className="space-y-3">
-              {["Experiences", "Gallery", "About", "Contact"].map((label) => (
+              {["Experiences", "Gallery", "Hotels", "About", "Contact"].map((label) => (
                 <li key={label}>
                   <a
                     href={`#${label.toLowerCase()}`}
@@ -97,7 +97,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-content mx-auto px-4 sm:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/30">
-            &copy; {new Date().getFullYear()} Kaya Shinners Tour &amp; Safaris.
+            &copy; {new Date().getFullYear()} Kaya Shiners Tours &amp; Safari.
             All rights reserved.
           </p>
           <p className="text-xs text-white/30">

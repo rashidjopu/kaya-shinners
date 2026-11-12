@@ -5,6 +5,7 @@ import TravelSection from "@/components/TravelSection";
 import GameDrives from "@/components/GameDrives";
 import Destinations from "@/components/Destinations";
 import Gallery from "@/components/Gallery";
+import Hotels from "@/components/Hotels";
 import Reviews from "@/components/Reviews";
 import InquiryForm from "@/components/InquiryForm";
 import Footer from "@/components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <GameDrives />
         <Destinations />
         <Gallery />
+        <Hotels />
         <Reviews />
         <InquiryForm />
       </main>

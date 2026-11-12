@@ -8,7 +8,7 @@ export default function About() {
     <section id="about" className="bg-white">
       <div className="max-w-content mx-auto px-4 sm:px-8">
         <div className="py-4 text-center text-sm text-body-text/50 tracking-wider">
-          Kaya Shinners &nbsp;·&nbsp; Tour &amp; Safaris
+          Kaya Shiners &nbsp;·&nbsp; Tours &amp; Safari
         </div>
       </div>
 
@@ -26,7 +26,7 @@ export default function About() {
             Get ready to explore the indescribable wild beauty of Kenya&apos;s coast
           </p>
           <p className="text-body-text leading-relaxed text-base md:text-lg max-w-2xl mx-auto">
-            Nestled along the stunning Kenyan coastline, Kaya Shinners Tour and Safaris
+            Nestled along the stunning Kenyan coastline, Kaya Shiners Tours and Safari
             is your gateway to extraordinary adventures. From the dramatic plains of Tsavo
             to the pristine beaches of Watamu, from sacred forests to adrenaline-pumping
             water sports, we curate authentic experiences that reveal the soul of
@@ -48,7 +48,7 @@ export default function About() {
           className="text-center mb-14"
         >
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold">
-            The Kaya Shinners Experience
+            The Kaya Shiners Experience
           </h2>
         </motion.div>
 

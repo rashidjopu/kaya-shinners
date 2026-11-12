@@ -49,10 +49,10 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 1 }}
         >
           <h2 className="font-[family-name:var(--font-cormorant)] text-2xl sm:text-3xl md:text-4xl font-semibold text-white tracking-[0.15em] mb-4">
-            Kaya Shinners
+            Kaya Shiners
           </h2>
           <p className="text-accent text-xs sm:text-sm tracking-[0.3em] uppercase mb-8">
-            Safari &amp; Tour
+            Tours &amp; Safari
           </p>
         </motion.div>
       </div>

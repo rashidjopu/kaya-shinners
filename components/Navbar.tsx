@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Home", href: "#home" },
   { label: "Experiences", href: "#destinations" },
   { label: "Gallery", href: "#gallery" },
+  { label: "Hotels", href: "#hotels" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
@@ -42,9 +43,9 @@ export default function Navbar() {
           href="#home"
           className="absolute left-1/2 -translate-x-1/2 font-[family-name:var(--font-cormorant)] text-xl sm:text-2xl md:text-3xl font-semibold tracking-[0.15em] text-white"
         >
-          Kaya Shinners
+          Kaya Shiners
           <span className="block text-[10px] sm:text-xs tracking-[0.2em] font-normal text-white/60 -mt-0.5">
-            Safari &amp; Tour
+            Tours &amp; Safari
           </span>
         </a>
 

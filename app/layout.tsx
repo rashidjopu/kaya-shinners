@@ -22,9 +22,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Kaya Shinners | Safari & Tour - Kenya's Coastal Paradise",
+  title: "Kaya Shiners Tours & Safari - Kenya's Coastal Paradise",
   description:
-    "Discover Kenya's coastal paradise with Kaya Shinners Safari and Tour. Unforgettable safaris, island escapes, wildlife encounters & adventure experiences along the Kenyan coast.",
+    "Discover Kenya's coastal paradise with Kaya Shiners Tours and Safari. Unforgettable safaris, island escapes, wildlife encounters & adventure experiences along the Kenyan coast.",
 };
 
 export default function RootLayout({

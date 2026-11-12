@@ -30,7 +30,7 @@ export default function InquiryForm() {
   const buildWhatsAppMessage = (data: FormData) => {
     const dest = destinations.find((d) => d.id === data.destination);
     const lines = [
-      `Hi Kaya Shinners! I'd like to inquire about:`,
+      `Hi Kaya Shiners! I'd like to inquire about:`,
       ``,
       `Destination: ${dest?.name || data.destination || "Not specified"}`,
       `Name: ${data.name}`,
